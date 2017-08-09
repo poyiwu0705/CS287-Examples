@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AppleStoreLibrary
 {
-    class Product
+    public class Product
     {
+        public int Id;
+        public string Name;
+        public int Price;
+        public string[] Categories;
     }
 }

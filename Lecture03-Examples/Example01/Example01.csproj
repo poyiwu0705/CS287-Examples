@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppleStoreLibrary\AppleStoreLibrary.csproj">
+      <Project>{919c5c72-adf5-4b9d-8384-26616ca1a67d}</Project>
+      <Name>AppleStoreLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

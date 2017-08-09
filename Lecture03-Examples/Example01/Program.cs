@@ -26,7 +26,7 @@ namespace Example01
                 Name = "iPhone 7 plus",
                 Price = 31900,
                 Categories = new string[] { "iPhone" }
-                },
+                }
              };
 
             Console.WriteLine(products[0].Name);
