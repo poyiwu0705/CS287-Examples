@@ -14,5 +14,7 @@ namespace Example05
 
         // 表格的欄位 寶可夢名稱
         public string Name;
+
+        public float 身高;
     }
 }

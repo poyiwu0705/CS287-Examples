@@ -13,14 +13,13 @@ namespace Example03
             Console.Write("請輸入National No:");
             int nationalNo = -1;
             //int.TryParse(Console.ReadLine(), out nationalNo);
-
             try
             {
                 nationalNo = int.Parse(Console.ReadLine());
             }
             catch
             {
-                Console.Write("National No 輸入錯誤!");
+                Console.WriteLine("National No 輸入錯誤!");
                 return;
             }
 
@@ -29,7 +28,7 @@ namespace Example03
 
             try
             {
-                height = int.Parse(Console.ReadLine());
+                height = float.Parse(Console.ReadLine());
             }
             catch
             {
